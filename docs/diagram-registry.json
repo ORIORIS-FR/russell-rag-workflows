@@ -1,0 +1,48 @@
+{
+  "preset": "doc-wide",
+  "size": [
+    1280,
+    720
+  ],
+  "fonts": "system fallbacks",
+  "source": "diagram-design 2.6; template minimal adapté",
+  "status": "proposed-not-deployed",
+  "diagrams": [
+    {
+      "slug": "01-architecture",
+      "title": "Une source, deux parcours contrôlés",
+      "type": "Architecture",
+      "caption": "Vue regroupée : les nœuds techniques, credentials et sorties d’erreur figurent dans les guides. L’audit interne est sans outil ; les outils dessinés concernent le parcours interactif."
+    },
+    {
+      "slug": "02-russell",
+      "title": "Russell sépare conversation et audit",
+      "type": "Flowchart",
+      "caption": "Les erreurs de validation arrêtent le run. Le rapport est écrit avant la notification. Le schéma regroupe la conversion binaire, l’écriture et le formatage ; leurs nœuds restent distincts dans le candidat."
+    },
+    {
+      "slug": "03-rag-decisions",
+      "title": "Chaque drapeau a un effet explicite",
+      "type": "Flowchart",
+      "caption": "Vue du mode réel : en simulation, les actions sont seulement planifiées. Une erreur de lecture ou de validation arrête le lot avant la boucle. Le count exact ne constitue pas une évaluation de la qualité des vecteurs."
+    },
+    {
+      "slug": "04-indexation",
+      "title": "Écrire, confirmer, puis nettoyer",
+      "type": "Sequence",
+      "caption": "Chemin de succès d’une génération nouvelle. Le count complet contourne le calcul et l’upsert. L’audit est appelé après la fin de la boucle seulement si au moins une note nouvelle le demande ; l’appel est attendu, sans retour représenté ici."
+    },
+    {
+      "slug": "05-usages",
+      "title": "De la demande à une décision sourcée",
+      "type": "Swimlane",
+      "caption": "Exemple documentaire interactif. Les outils sensibles ne sont pas connectés dans cette version. Une question d’infrastructure donne donc un plan de diagnostic, sans prétendre avoir inspecté Docker."
+    },
+    {
+      "slug": "06-publication",
+      "title": "Du travail local au partage maîtrisé",
+      "type": "Process · stage framework",
+      "caption": "Les lignes gardent les mêmes rôles dans les trois étapes. Le kit est publié ; la mise en service des workflows reste distincte, après recette. Le contrôle public est une revue humaine aidée par un scan, pas une certification automatique."
+    }
+  ]
+}

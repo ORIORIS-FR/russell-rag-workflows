@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-11-04T06:47:10.821Z",
+  "scope": "Public working tree only, no private history or source exports",
+  "files_checked": 68,
+  "findings": 0,
+  "failures": [],
+  "existing_private_candidates_unchanged": true,
+  "method": [
+    "Explicit file allowlist",
+    "Synthetic public documentation and demo sub-workflows",
+    "Pattern checks and exclusion of actual workflow identifiers",
+    "Review of staged file list before publication"
+  ],
+  "limitations": [
+    "Heuristic checks do not certify anonymity",
+    "GitHub owner and public commit identity remain visible",
+    "No n8n runtime acceptance test performed"
+  ]
+}

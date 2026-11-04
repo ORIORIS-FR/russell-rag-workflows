@@ -1,0 +1,20 @@
+{
+  "dryRun": true,
+  "vaultRoot": "/vault",
+  "qdrantBaseUrl": "__QDRANT_BASE_URL__",
+  "ollamaBaseUrl": "__OLLAMA_BASE_URL__",
+  "collection": "knowledge-base-staging",
+  "model": "nomic-embed-text:latest",
+  "embeddingRevision": "replace-with-local-model-digest-before-production",
+  "chunkSize": 500,
+  "chunkOverlap": 50,
+  "maxNoteChars": 80000,
+  "maxChunks": 180,
+  "expectedDimensions": 768,
+  "fullRescan": true,
+  "lookbackHours": 72,
+  "enableAudit": false,
+  "maxAuditNotes": 10,
+  "maxAuditChars": 12000,
+  "russellWorkflowId": "__RUSSELL_WORKFLOW_ID__"
+}
