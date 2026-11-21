@@ -1,3 +1,3 @@
-# Licence
+# Droits et réutilisation
 
-Aucune licence de réutilisation de ce kit n’est attribuée à ce stade. La publication du code ne doit pas être interprétée comme une licence MIT ou Apache. Les dépendances et produits externes conservent leurs propres licences.
+Aucune licence de réutilisation générale n’est accordée pour le moment. La visibilité publique d’un dépôt ne remplace pas une licence. Les éventuelles dépendances conservent leurs propres licences.

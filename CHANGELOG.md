@@ -1,5 +1,5 @@
-# Versions
+# Changements
 
-## Édition documentaire du 4 novembre 2026
+## 2026-11-21
 
-Première publication publique anonymisée : candidats 0.1.0, guides autonomes, exemples de staging et sous-workflows de démonstration. Aucun déploiement de service.
+Retrait de tous les anciens workflows candidats et de démonstration, de leurs générateurs et de leur documentation de mise en service. Reprise du catalogue depuis les références réelles conservées dans le dépôt privé. Aucun nouveau workflow publié à cette date. Historique Git conservé.

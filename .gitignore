@@ -1,15 +1,5 @@
 .local/
-dist/
-node_modules/
 .env
 .env.*
-!.env.example
-*.log
-.DS_Store
-Thumbs.db
-reports/runtime/
-demo-vault/private/
-
-examples/.env
-examples/reports/*
-!examples/reports/.gitkeep
+__pycache__/
+*.pyc
